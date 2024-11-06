@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+
+header{
+    height: 15vh;
+    background-color: black;
+    color: whitesmoke;
+}
+
+header>h1{
+    margin-left: 1vw;
+}
+
+header>p{
+    margin-left: 1vw;
+}
+
+nav{
+    height: 5vh;
+    background-color: rgb(230, 189, 170);
+    display: flex;
+    align-items: center;
+}
+nav>p{
+    width: 5vw;
+    margin-left: 1vw;
+}
+
+main{
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.671);
+    color: black;
+    font-weight: 700;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
